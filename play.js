@@ -17,19 +17,19 @@ nocache('./cmdpack/haikal.js', module => console.log(`${module} telah di update!
 const starts = async (haikal = new WAConnection()) => {
 haikal.logger.level = 'warn'
 haikal.version = [2, 2142, 12]
-haikal.browserDescription = [ 'Ikal', 'Browser', '3.0' ]
+haikal.browserDescription = [ 'sxd', 'Browser', '3.0' ]
 console.log(color('SCRIPT INI 100% AMAN'))
-console.log(color('DALAM PENGAWASAN HAIKAL'))
-console.log(color('┌─────── THX TO ────'))
-console.log(color('│‣ ALLAH SWT'))
-console.log(color('│‣ ADIWAJSHING'))
-console.log(color('│‣ Baileys'))
-console.log(color('│‣ Nurutomo'))
-console.log(color('│‣ Mhankbarbar'))
-console.log(color('│‣ haikal'))
-console.log(color('│‣ Lolhuman'))
-console.log(color('│‣ HydraThrow Team'))
-console.log(color('└➤─────────────'))
+console.log(color('DALAM PENGAWASAN SYNCHRONIZE'))
+console.log(color('    ⧼ THX TO ⧽'))
+console.log(color('╰─≫ ALLAH SWT'))
+console.log(color('╰─≫ ADIWAJSHING (Node Creator)'))
+console.log(color('╰─≫ Baileys'))
+console.log(color('╰─≫ Nurutomo'))
+console.log(color('╰─≫ XOXO (Donatur)'))
+console.log(color('╰─≫ Vnstore (Donatur)'))
+console.log(color('╰─≫ Synchronize (Creator)'))
+console.log(color('╰─≫ All Admin SyncXD Team'))
+console.log(color('╰─────────────────────≫'))
 console.log(banner)
 haikal.on('qr', () => {
 console.log(color('[','white'), color('!','red'), color(']','white'), color(' Silahkan Scan Kode Qr Nya Kak...!'))
